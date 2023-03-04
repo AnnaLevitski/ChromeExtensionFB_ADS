@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
     <head>
         <title>Here</title>
     </head>
     <body>
         <div>
             <h4>Text</h4>
-            <textarea id="text" name="w3review" rows="4" cols="50"></textarea>
+            <textarea  name="w3review" rows="4" cols="50" class="text"></textarea>
         </div>
         <div>
             <h4>Photo</h4>
-            <input type="file" name="photo" value="Add photos" multiple accept="image/*">
+            <input type="file" name="photo" multiple accept="image/*" class="photo">
         </div>
-        <div>
+        <div class="add">
             <h4>Links</h4>
             <input type="text" size="50">
-            <input type="submit" value="+">
+            <input type="submit" value="+" class="btn add_btn">
         </div>
-        <input type="submit" value="POST">
-
-        <script src="/popup.js"></script>
+        
+        <input type="submit" value="POST" class="btn yellow_btn">
+        
+        <script src="popup.js"></script>
     </body>
 </html>
